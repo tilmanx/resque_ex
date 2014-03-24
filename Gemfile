@@ -26,3 +26,7 @@ group :test do
   gem 'database_cleaner', '1.0.1'
   gem 'email_spec'
 end
+
+
+gem "resque", "~> 2.0.0.pre.1", github: "resque/resque"
+gem 'resque-web', require: 'resque_web'
